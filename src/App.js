@@ -2,6 +2,7 @@ import './App.css';
 import DateAndLocation from './components/DateAndLocation';
 import Inputs from './components/Inputs';
 import Navbar from './components/Navbar';
+import TemperatureAndDetails from './components/TemperatureAndDetails';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Inputs/>
       <DateAndLocation/>
+      <TemperatureAndDetails/>
     </div>
   );
 }
